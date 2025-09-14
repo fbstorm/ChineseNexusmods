@@ -7,6 +7,7 @@
 // @description  将 NexusMods 网站的静态UI元素（如导航、按钮、标签页等）翻译为中文，同时忽略用户生成内容（UGC），如Mod描述、评论、帖子等。
 // @description:en Translates static UI elements (like navigation, buttons, tabs) on NexusMods to Chinese, while ignoring User-Generated Content (UGC) like mod descriptions, comments, and posts.
 // @author       Gemini and Fantastormb(Operator)
+// @match        https://*.nexusmods.com/*
 // @match        https://www.nexusmods.com/*
 // @grant        none
 // @license      MIT
@@ -313,5 +314,6 @@
             subtree: true    // 监控所有后代节点
         });
     }, { once: true });
+
 
 })();
